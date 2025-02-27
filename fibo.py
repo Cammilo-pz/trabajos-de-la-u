@@ -10,3 +10,4 @@ while cont < nmax:
     ultimo = suma
     print(ultimo)
     cont = cont + 1
+print("gatico")
