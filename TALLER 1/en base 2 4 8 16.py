@@ -21,7 +21,7 @@ if b==2 or b==4 or b==8:
 elif b == 16:
         while n>0:
             r = n % b #residuo
-            if r<10: 
+            if r<10: #se agregan las letras hexadecimales 
                 hexadecimal = str(r) + hexadecimal
             elif r == 10:
                 hexadecimal = "A" + hexadecimal  
@@ -35,8 +35,8 @@ elif b == 16:
                 hexadecimal = "E" + hexadecimal  
             elif r == 15:
                 hexadecimal = "F" + hexadecimal  
-            n = n // b   
-        print(hexadecimal)
+            n = n // b   #se hace la división entera hasta que se llegue a 0
+        print(hexadecimal) # se imprime la variable que contiene los numeros o letras
 else:
     print ("Base invalida")    
 
