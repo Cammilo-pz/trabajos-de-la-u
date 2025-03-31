@@ -69,3 +69,5 @@ else:
     print(f"Desviación estandar: {desviacion(A)}")
     print(" ")
     print(f"Rango: {rango(A)}")
+    print(" ")
+    
