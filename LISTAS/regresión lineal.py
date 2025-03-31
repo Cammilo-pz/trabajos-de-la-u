@@ -39,7 +39,7 @@ print(b2)
 maximoenx=22
 X=[]
 Y=[]
-for i in range (maximoenx): #si quiero ver solo la parte del rango utilizado coloco desde el minimo de altura osea 15 o 1.5 
+for i in range (15, maximoenx): #si quiero ver solo la parte del rango utilizado coloco desde el minimo de altura osea 15 o 1.5 
     X.append(i/10)
 for j in range (len(X)):
     Y.append(m*(X[j])+b2)
@@ -47,5 +47,5 @@ for j in range (len(X)):
 print(X)
 print(Y)
 
-plt.plot(A, B, "g.", X, Y, "r-")
+plt.plot(A, B, "b*", X, Y, "g-")
 plt.show()
